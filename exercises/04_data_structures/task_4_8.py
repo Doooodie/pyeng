@@ -26,3 +26,11 @@
 """
 
 ip = "192.168.3.1"
+arr = ip.split(".")
+
+template = """
+{0:<9} {1:<9} {2:<9} {3:<9}
+{0:08b}  {1:08b}  {2:08b}  {3:08b}
+"""
+
+print(template.format(int(arr[0]), int(arr[1]), int(arr[2]), int(arr[3])))

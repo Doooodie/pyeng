@@ -9,11 +9,13 @@ node_modules
 
 # Book build output
 _book
+build
 
 # eBook build output
 *.epub
 *.mobi
 pyneng.pdf
+pyneng.egg-info
 
 # OS generated files #
 # ######################
