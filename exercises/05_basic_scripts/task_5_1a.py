@@ -44,3 +44,7 @@ london_co = {
         "routing": True,
     },
 }
+
+location = input('Введите имя устройства: ')
+param = input('Введите имя параметра: ')
+print(london_co[location][param])
